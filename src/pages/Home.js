@@ -49,14 +49,19 @@ export default function Home({ navigation }) {
           />
           <Text style={styles.title}>Sobre</Text>
         </TouchableOpacity>
-        <View style={styles.viewExp}>
+        <TouchableOpacity
+          style={styles.viewExp}
+          onPress={() =>
+            navigation.navigate('Experience', { page: 'HomeScreen' })
+          }
+        >
           <MaterialCommunityIcons
             name="briefcase-variant-outline"
             size={hp('3.5%')}
             color="black"
           />
           <Text style={styles.title}>Experiência</Text>
-        </View>
+        </TouchableOpacity>
         <View style={styles.viewExp}>
           <MaterialCommunityIcons
             name="school-outline"
@@ -99,7 +104,8 @@ export default function Home({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#D3D3D3',
+    // backgroundColor: '#D3D3D3',
+    backgroundColor: '#FFFFFF',
     flexDirection: 'column',
     // justifyContent: 'center',
     // alignItems: 'stretch',

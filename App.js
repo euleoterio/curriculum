@@ -7,6 +7,7 @@ import Home from './src/pages/Home.js';
 import About from './src/pages/About.js';
 import Contacts from './src/pages/Contacts.js';
 import Network from './src/pages/Network.js';
+import Experience from './src/pages/Experience.js';
 
 const Stack = createStackNavigator();
 
@@ -22,6 +23,7 @@ export default function App() {
         <Stack.Screen name="About" component={About} />
         <Stack.Screen name="Contacts" component={Contacts} />
         <Stack.Screen name="Network" component={Network} />
+        <Stack.Screen name="Experience" component={Experience} />
       </Stack.Navigator>
     </NavigationContainer>
   );
