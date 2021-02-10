@@ -79,7 +79,8 @@ export default function Network({ navigation, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#D3D3D3',
+    // backgroundColor: '#D3D3D3',
+    backgroundColor: '#FFFFFF',
     flexDirection: 'column',
   },
   infos: {
