@@ -45,18 +45,13 @@ export default function About({ navigation, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#D3D3D3',
     backgroundColor: '#FFFFFF',
     flexDirection: 'column',
   },
   infos: {
     flex: hp('1%'),
-    // width: wp('100%'),
-    // height: hp('30%'),
     backgroundColor: '#363636',
     flexDirection: 'row',
-    // paddingTop: hp('5%'),
-    // paddingLeft: wp('10%'),
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -65,15 +60,14 @@ const styles = StyleSheet.create({
     paddingTop: hp('5%'),
     paddingLeft: hp('2%'),
     flexDirection: 'row',
-    // justifyContent: 'center',
     alignItems: 'center',
   },
   title: {
     fontFamily: 'Helvetica',
-    fontSize: 50,
+    fontSize: 40,
     color: '#FFFFFF',
     fontWeight: 'bold',
-    paddingLeft: wp('3%'),
+    paddingLeft: wp('5%'),
   },
   returnBtn: {
     position: 'absolute',
@@ -81,8 +75,6 @@ const styles = StyleSheet.create({
     top: 50,
   },
   about: {
-    // width: wp('100%'),
-    // height: hp('70%'),
     flex: hp('3%'),
     alignItems: 'center',
     justifyContent: 'center',
@@ -91,7 +83,5 @@ const styles = StyleSheet.create({
     fontSize: 20,
     paddingLeft: wp('5%'),
     paddingRight: wp('5%'),
-    // paddingTop: hp('8%'),
-    // paddingBottom: hp('5%'),
   },
 });

@@ -21,7 +21,6 @@ export default function Home({ navigation }) {
               width: hp('19%'),
               height: hp('19%'),
               borderRadius: 100,
-              // marginLeft: wp('3%'),
               marginTop: hp('10%'),
               paddingLeft: wp('2%'),
             }}
@@ -112,25 +111,18 @@ export default function Home({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#D3D3D3',
     backgroundColor: '#FFFFFF',
     flexDirection: 'column',
-    // justifyContent: 'center',
-    // alignItems: 'stretch',
   },
   infos: {
     flex: hp('1%'),
-    // width: wp('100%'),
-    // height: hp('30%'),
     backgroundColor: '#363636',
     flexDirection: 'column',
-    // paddingTop: hp('5%'),
     paddingLeft: wp('10%'),
     justifyContent: 'center',
     alignItems: 'stretch',
   },
   top: {
-    // backgroundColor: 'red',
     width: wp('80%'),
     height: hp('20%'),
     flexDirection: 'row',
@@ -138,14 +130,7 @@ const styles = StyleSheet.create({
   },
   viewName: {
     justifyContent: 'center',
-    // alignItems: 'stretch',
-    // marginTop: hp('5%'),
     marginLeft: wp('2%'),
-    // top: hp('5%'),
-    // flex: hp('20%'),
-    // backgroundColor: 'red',
-    // width: wp('50%'),
-    // height: hp('50%'),
   },
   name: {
     fontFamily: 'Helvetica',
@@ -153,23 +138,17 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     top: hp('8%'),
     fontWeight: 'bold',
-    // marginLeft: wp('5%'),
     alignSelf: 'center',
   },
   sub: {
     color: '#FFFFFF',
     top: hp('9%'),
-    // paddingTop: hp(3),
     fontSize: 15,
-    // marginLeft: wp('10%'),
     alignSelf: 'center',
   },
   exp: {
-    // width: wp('100%'),
-    // height: hp('70%'),
     flex: hp('3%'),
     alignItems: 'center',
-    // justifyContent: 'center',
   },
   viewExp: {
     width: wp('70%'),
@@ -180,14 +159,11 @@ const styles = StyleSheet.create({
     paddingLeft: wp('10%'),
     paddingTop: wp('2%'),
     paddingBottom: wp('2%'),
-    // justifyContent: 'center',
-    // paddingLeft: wp('15%'),
   },
   title: {
     fontFamily: 'Helvetica',
     fontSize: 20,
     paddingLeft: hp('5%'),
     justifyContent: 'space-around',
-    // alignItems: 'stretch',
   },
 });

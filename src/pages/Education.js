@@ -53,12 +53,7 @@ export default function Education({ navigation, route }) {
             }}
           >
             <Text style={styles.educationTitle}>Formação Acadêmica</Text>
-            <Feather
-              name="plus"
-              // size={30}
-              // color="black"
-              style={styles.educationTitle}
-            />
+            <Feather name="plus" style={styles.educationTitle} />
           </TouchableOpacity>
           {expanded && (
             <View style={styles.tile}>
@@ -87,12 +82,7 @@ export default function Education({ navigation, route }) {
             }}
           >
             <Text style={styles.educationTitle}>Licenças e certificados</Text>
-            <Feather
-              name="plus"
-              // size={30}
-              // color="black"
-              style={styles.educationTitle}
-            />
+            <Feather name="plus" style={styles.educationTitle} />
           </TouchableOpacity>
           {expanded1 && (
             <View style={styles.tile}>
@@ -125,12 +115,7 @@ export default function Education({ navigation, route }) {
             }}
           >
             <Text style={styles.educationTitle}>Cursos</Text>
-            <Feather
-              name="plus"
-              // size={30}
-              // color="black"
-              style={styles.educationTitle}
-            />
+            <Feather name="plus" style={styles.educationTitle} />
           </TouchableOpacity>
           {expanded2 && (
             <View style={styles.tile}>
@@ -180,12 +165,7 @@ export default function Education({ navigation, route }) {
             }}
           >
             <Text style={styles.educationTitle}>Idiomas</Text>
-            <Feather
-              name="plus"
-              // size={30}
-              // color="black"
-              style={styles.educationTitle}
-            />
+            <Feather name="plus" style={styles.educationTitle} />
           </TouchableOpacity>
           {expanded3 && (
             <View style={styles.tile}>
@@ -204,35 +184,28 @@ export default function Education({ navigation, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#D3D3D3',
     backgroundColor: '#FFFFFF',
     flexDirection: 'column',
   },
   infos: {
     flex: hp('1%'),
-    // width: wp('100%'),
-    // height: hp('30%'),
     backgroundColor: '#363636',
     flexDirection: 'column',
-    // paddingTop: hp('5%'),
-    // paddingLeft: wp('10%'),
     justifyContent: 'center',
     alignItems: 'center',
   },
   box: {
     width: wp('80%'),
     paddingTop: hp('5%'),
-    // paddingLeft: hp('0.8%'),
     flexDirection: 'row',
-    // justifyContent: 'center',
     alignItems: 'center',
   },
   title: {
     fontFamily: 'Helvetica',
-    fontSize: 35,
+    fontSize: 33,
     color: '#FFFFFF',
     fontWeight: 'bold',
-    paddingLeft: wp('3%'),
+    paddingLeft: wp('5%'),
   },
   returnBtn: {
     position: 'absolute',
@@ -240,15 +213,12 @@ const styles = StyleSheet.create({
     top: 50,
   },
   education: {
-    // width: wp('100%'),
-    // height: hp('70%'),
     paddingLeft: wp('5%'),
     paddingRight: wp('5%'),
     paddingTop: hp('5%'),
     paddingBottom: hp('5%'),
     flex: hp('3%'),
     alignItems: 'center',
-    // justifyContent: 'center',
   },
   educationBox: {
     paddingBottom: hp('1%'),
@@ -262,27 +232,24 @@ const styles = StyleSheet.create({
   },
   educationTitle: {
     fontFamily: 'Helvetica',
-    fontSize: 28,
+    fontSize: 25,
     paddingRight: wp('3%'),
     paddingTop: hp('1%'),
   },
   educationTxt: {
     fontFamily: 'Helvetica',
     fontSize: 18,
-    // paddingBottom: hp('1%'),
     paddingTop: hp('1%'),
     fontWeight: 'bold',
   },
   educationDesc: {
     fontSize: 14,
     width: wp('70%'),
-    // height: hp('70%'),
     paddingBottom: hp('1%'),
   },
   educationTime: {
     fontSize: 13,
     width: wp('70%'),
-    // height: hp('70%'),
     paddingBottom: hp('1%'),
     color: '#808080',
   },

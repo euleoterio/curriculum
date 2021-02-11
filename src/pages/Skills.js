@@ -4,7 +4,6 @@ import {
   Text,
   TouchableOpacity,
   StyleSheet,
-  LayoutAnimation,
   ScrollView,
 } from 'react-native';
 import {
@@ -14,11 +13,6 @@ import {
 import { EvilIcons, MaterialIcons, Feather } from '@expo/vector-icons';
 
 export default function Skills({ navigation, route }) {
-  const [expanded, setExpanded] = useState(false);
-  const [expanded1, setExpanded1] = useState(false);
-  const [expanded2, setExpanded2] = useState(false);
-  const [expanded3, setExpanded3] = useState(false);
-
   return (
     <View style={styles.container}>
       <View style={styles.infos}>
@@ -75,35 +69,28 @@ export default function Skills({ navigation, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#D3D3D3',
     backgroundColor: '#FFFFFF',
     flexDirection: 'column',
   },
   infos: {
     flex: hp('1%'),
-    // width: wp('100%'),
-    // height: hp('30%'),
     backgroundColor: '#363636',
     flexDirection: 'column',
-    // paddingTop: hp('5%'),
-    // paddingLeft: wp('10%'),
     justifyContent: 'center',
     alignItems: 'center',
   },
   box: {
     width: wp('80%'),
     paddingTop: hp('5%'),
-    // paddingLeft: hp('0.8%'),
     flexDirection: 'row',
-    // justifyContent: 'center',
     alignItems: 'center',
   },
   title: {
     fontFamily: 'Helvetica',
-    fontSize: 35,
+    fontSize: 30,
     color: '#FFFFFF',
     fontWeight: 'bold',
-    paddingLeft: wp('2%'),
+    paddingLeft: wp('3%'),
   },
   returnBtn: {
     position: 'absolute',
@@ -111,15 +98,12 @@ const styles = StyleSheet.create({
     top: 50,
   },
   education: {
-    // width: wp('100%'),
-    // height: hp('70%'),
     paddingLeft: wp('5%'),
     paddingRight: wp('5%'),
     paddingTop: hp('5%'),
     paddingBottom: hp('5%'),
     flex: hp('3%'),
     alignItems: 'center',
-    // justifyContent: 'center',
   },
   educationBox: {
     paddingBottom: hp('1%'),
@@ -139,7 +123,7 @@ const styles = StyleSheet.create({
   },
   educationTxt: {
     fontFamily: 'Helvetica',
-    fontSize: 18,
+    fontSize: 17,
     paddingBottom: hp('1%'),
     paddingTop: hp('1%'),
     fontWeight: 'bold',
