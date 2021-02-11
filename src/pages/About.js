@@ -32,10 +32,13 @@ export default function About({ navigation, route }) {
 
       <View style={styles.about}>
         <Text style={styles.aboutTxt}>
-          Trabalho com inteligência artificial para criação de bots que melhorem
-          o atendimento ao cliente. {'\n'}
-          {'\n'}Procurando sempre aprimorar o conhecimento, principalmente em
-          relação a programação.
+          Trabalho com Inteligência Artificial desde 2018 e atualmente me
+          desenvolvendo cada vez mais para se tornar um Desenvolvedor Fullstack.
+          Sou apaixonado por tecnologia, programação e incentivar pessoas.
+          {'\n'}
+          {'\n'}
+          Gosto de programar(👨🏻‍💻), ouvir música (🎵), tirar fotos (📷), assistir
+          filmes (🎞️) e séries (📺), jogar futebol (⚽️).
         </Text>
       </View>
     </View>
@@ -77,10 +80,10 @@ const styles = StyleSheet.create({
   about: {
     flex: hp('3%'),
     alignItems: 'center',
-    justifyContent: 'center',
   },
   aboutTxt: {
-    fontSize: 20,
+    fontSize: 18,
+    paddingTop: hp('10%'),
     paddingLeft: wp('5%'),
     paddingRight: wp('5%'),
   },
