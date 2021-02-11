@@ -16,7 +16,7 @@ Learning React Native (Expo CLI) by developing my own curriculum.
 
 ## Preview
 
-Expo Snack: https://snack.expo.io/@euleoterio/bb6377
+Expo Snack: https://snack.expo.io/@euleoterio/euleoterio-curriculum
 
 ### Components
 
