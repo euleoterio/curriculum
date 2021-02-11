@@ -62,18 +62,26 @@ export default function Home({ navigation }) {
           />
           <Text style={styles.title}>Experiência</Text>
         </TouchableOpacity>
-        <View style={styles.viewExp}>
+        <TouchableOpacity
+          style={styles.viewExp}
+          onPress={() =>
+            navigation.navigate('Education', { page: 'HomeScreen' })
+          }
+        >
           <MaterialCommunityIcons
             name="school-outline"
             size={hp('3.5%')}
             color="black"
           />
           <Text style={styles.title}>Escolaridade</Text>
-        </View>
-        <View style={styles.viewExp}>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.viewExp}
+          onPress={() => navigation.navigate('Skills', { page: 'HomeScreen' })}
+        >
           <MaterialIcons name="computer" size={hp('3.5%')} color="black" />
           <Text style={styles.title}>Habilidades</Text>
-        </View>
+        </TouchableOpacity>
 
         <TouchableOpacity
           style={styles.viewExp}
