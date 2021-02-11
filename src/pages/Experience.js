@@ -54,12 +54,7 @@ export default function Experience({ navigation, route }) {
             }}
           >
             <Text style={styles.experienceTitle}>S i c r e d i</Text>
-            <Feather
-              name="plus"
-              // size={30}
-              // color="black"
-              style={styles.experienceTitle}
-            />
+            <Feather name="plus" style={styles.experienceTitle} />
           </TouchableOpacity>
           {expanded && (
             <View style={styles.tile}>
@@ -86,12 +81,7 @@ export default function Experience({ navigation, route }) {
             }}
           >
             <Text style={styles.experienceTitle}>T i v i t</Text>
-            <Feather
-              name="plus"
-              // size={30}
-              // color="black"
-              style={styles.experienceTitle}
-            />
+            <Feather name="plus" style={styles.experienceTitle} />
           </TouchableOpacity>
           {expanded1 && (
             <View style={styles.tile}>
@@ -137,12 +127,7 @@ export default function Experience({ navigation, route }) {
             }}
           >
             <Text style={styles.experienceTitle}>I B M</Text>
-            <Feather
-              name="plus"
-              // size={30}
-              // color="black"
-              style={styles.experienceTitle}
-            />
+            <Feather name="plus" style={styles.experienceTitle} />
           </TouchableOpacity>
           {expanded2 && (
             <View style={styles.tile}>
@@ -170,12 +155,7 @@ export default function Experience({ navigation, route }) {
             }}
           >
             <Text style={styles.experienceTitle}>C a v i n a t t o</Text>
-            <Feather
-              name="plus"
-              // size={30}
-              // color="black"
-              style={styles.experienceTitle}
-            />
+            <Feather name="plus" style={styles.experienceTitle} />
           </TouchableOpacity>
           {expanded3 && (
             <View style={styles.tile}>
@@ -198,12 +178,7 @@ export default function Experience({ navigation, route }) {
             }}
           >
             <Text style={styles.experienceTitle}>KS P i s t õ e s</Text>
-            <Feather
-              name="plus"
-              // size={30}
-              // color="black"
-              style={styles.experienceTitle}
-            />
+            <Feather name="plus" style={styles.experienceTitle} />
           </TouchableOpacity>
           {expanded4 && (
             <View style={styles.tile}>
@@ -228,32 +203,25 @@ export default function Experience({ navigation, route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: '#D3D3D3',
     backgroundColor: '#FFFFFF',
     flexDirection: 'column',
   },
   infos: {
     flex: hp('1%'),
-    // width: wp('100%'),
-    // height: hp('30%'),
     backgroundColor: '#363636',
     flexDirection: 'column',
-    // paddingTop: hp('5%'),
-    // paddingLeft: wp('10%'),
     justifyContent: 'center',
     alignItems: 'center',
   },
   box: {
     width: wp('80%'),
     paddingTop: hp('5%'),
-    // paddingLeft: hp('0.8%'),
     flexDirection: 'row',
-    // justifyContent: 'center',
     alignItems: 'center',
   },
   title: {
     fontFamily: 'Helvetica',
-    fontSize: 35,
+    fontSize: 32,
     color: '#FFFFFF',
     fontWeight: 'bold',
     paddingLeft: wp('3%'),
@@ -264,15 +232,12 @@ const styles = StyleSheet.create({
     top: 50,
   },
   experience: {
-    // width: wp('100%'),
-    // height: hp('70%'),
     paddingLeft: wp('5%'),
     paddingRight: wp('5%'),
     paddingTop: hp('5%'),
     paddingBottom: hp('5%'),
     flex: hp('3%'),
     alignItems: 'center',
-    // justifyContent: 'center',
   },
   experienceBox: {
     paddingBottom: hp('1%'),
@@ -286,27 +251,24 @@ const styles = StyleSheet.create({
   },
   experienceTitle: {
     fontFamily: 'Helvetica',
-    fontSize: 28,
+    fontSize: 26,
     paddingRight: wp('3%'),
     paddingTop: hp('1%'),
   },
   experienceTxt: {
     fontFamily: 'Helvetica',
     fontSize: 18,
-    // paddingBottom: hp('1%'),
     paddingTop: hp('1%'),
     fontWeight: 'bold',
   },
   experienceDesc: {
     fontSize: 14,
     width: wp('70%'),
-    // height: hp('70%'),
     paddingBottom: hp('1%'),
   },
   experienceTime: {
     fontSize: 13,
     width: wp('70%'),
-    // height: hp('70%'),
     paddingBottom: hp('1%'),
     color: '#808080',
   },
