@@ -8,6 +8,8 @@ import About from './src/pages/About.js';
 import Contacts from './src/pages/Contacts.js';
 import Network from './src/pages/Network.js';
 import Experience from './src/pages/Experience.js';
+import Education from './src/pages/Education.js';
+import Skills from './src/pages/Skills.js';
 
 const Stack = createStackNavigator();
 
@@ -24,6 +26,8 @@ export default function App() {
         <Stack.Screen name="Contacts" component={Contacts} />
         <Stack.Screen name="Network" component={Network} />
         <Stack.Screen name="Experience" component={Experience} />
+        <Stack.Screen name="Education" component={Education} />
+        <Stack.Screen name="Skills" component={Skills} />
       </Stack.Navigator>
     </NavigationContainer>
   );
