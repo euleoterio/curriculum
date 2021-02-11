@@ -30,7 +30,7 @@ export default function Home({ navigation }) {
           />
           <View style={styles.viewName}>
             <Text style={styles.name}>Vinicius Euleoterio</Text>
-            <Text style={styles.sub}>Desenvolvedor | Chatbots</Text>
+            <Text style={styles.sub}>Desenvolvedor | IA</Text>
           </View>
         </View>
       </View>

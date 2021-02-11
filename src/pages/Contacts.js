@@ -62,9 +62,7 @@ export default function Contacts({ navigation, route }) {
         </View>
         <View style={styles.contactsBox}>
           <Octicons name="location" size={40} color="black" />
-          <Text style={styles.contactsTxt}>
-            Rua Santiago São Leopoldo, RS, 93044-200
-          </Text>
+          <Text style={styles.contactsTxt}>São Leopoldo, RS | Brasil</Text>
         </View>
       </View>
     </View>
